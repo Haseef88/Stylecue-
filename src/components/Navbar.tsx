@@ -49,7 +49,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             <img
               src={LOGO_IMAGE_URL}
               alt="StyleCue Logo"
-              className="h-9 w-9 rounded-full object-cover ring-2 transition-all shadow-md"
+              className={`h-9 w-9 rounded-full object-cover ring-2 transition-all shadow-md ${
+                themeConfig.category === 'light' ? 'logo-light' : ''
+              }`}
               style={{ borderColor: themeConfig.primaryAccent }}
             />
             <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-black"></span>

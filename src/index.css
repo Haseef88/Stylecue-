@@ -201,6 +201,7 @@ body {
 
 .gold-gradient-text {
   background: linear-gradient(135deg, #FFF3B0 0%, var(--accent-gold) 50%, #D4AF37 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -219,4 +220,8 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-gold);
+}
+
+.logo-light {
+  filter: brightness(0);
 }
