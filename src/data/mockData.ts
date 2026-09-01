@@ -1,7 +1,7 @@
 import { LookbookLook, RetailerPartner, Testimonial, RunwaySnapshot } from '../types';
 
 export const HERO_IMAGE_URL = 'https://lh3.googleusercontent.com/aida-public/AB6AXuA8FW2NSBc3h0o5w7CPe-tiP0B4J9MDrC2ubpPh7NUjKka2DX-1FEzinUdERFqvhJPh6LE7arzJ8U59dZNkssxU0oim7tN9V-3V7C48kV2uBfUjAIc0zE8EEWMQas6qc3JvnNP2uY9Ui5d2ObfhnMP4e7oB-_4x6GSwwKKj7ycOsSz2a-FGXNX-LTBtuCLDRcUGoRwdkSEswUHCRiS6-6Ry2CbEcqtMQEHvdCuD9IcIPoJf2g22avE6sw';
-export const LOGO_IMAGE_URL = 'https://lh3.googleusercontent.com/aida-public/AB6AXuAxCMHtHpho6Qp2Uq2tJa9CY2VytCfS8Q4u0Xy2OaNmnjGfDJIW_CoDtrwt8omQJRnsFdDO2J-CgyV5zd8ZGr5nPkUBTxRWF6tFFH45NigTe5eU1wTWQQY___-brzpL76NWNjX9PjWq2N_3mXZEXGjPij-6MJ10zprSfxP0miOukQmIW-zfzRxu6X60KpxMD_f5Obq188UmUd8KsDan0GEWHnCB7fLUhV9bB0-pqM1V9s36hdcvqXMb2A';
+export const LOGO_IMAGE_URL = '/logo.png';
 
 export const CURATED_LOOKS: LookbookLook[] = [
   {
@@ -484,7 +484,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 't1',
     quote: "StyleCue makes shopping online easy and fun. The AI actually understands what styles look great on me, and I never waste time looking at clothes that don't fit.",
-    author: "Elena Rostova",
+    author: "Nanda Malini",
     title: "Fashion Stylist & Writer",
     outletOrAvatar: "VOGUE TECH",
     avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
@@ -493,16 +493,16 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 't2',
     quote: "I haven't had to spend hours shopping in stores for months. In just a few seconds, StyleCue puts together complete outfits for my work trips, and everything fits when it arrives.",
-    author: "Marcus Chen",
+    author: "Dominic Torretto",
     title: "Company Founder & Tech Leader",
     outletOrAvatar: "Client in New York",
-    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+    avatarUrl: '/dominic.png',
     isPress: false
   },
   {
     id: 't3',
     quote: "What I love most is that every outfit suggested is in stock in my size right now. You never fall in love with a piece only to find out it is sold out.",
-    author: "Sophia Sterling",
+    author: "Chandrika Jayawardena",
     title: "Style & Tech Journalist",
     outletOrAvatar: "ELLE DIGITAL",
     avatarUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80',
@@ -511,10 +511,10 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 't4',
     quote: "Our store returns dropped significantly because customers are getting the right sizes and outfits matched to their true body shape on the very first try.",
-    author: "Dominic Laurent",
+    author: "Paul Walker",
     title: "Online Store Director",
     outletOrAvatar: "FORBES",
-    avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
+    avatarUrl: '/paul.png',
     isPress: true
   }
 ];
