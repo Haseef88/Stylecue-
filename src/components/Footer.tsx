@@ -1,5 +1,5 @@
 import React from 'react';
-import { LOGO_IMAGE_URL } from '../data/mockData';
+import { BrandLogo } from './BrandLogo';
 import { useTheme } from '../context/ThemeContext';
 import { ThemeSelector } from './ThemeSelector';
 
@@ -19,12 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenModal, onScrollTo }) => {
           onClick={() => onScrollTo('hero')}
           className="flex items-center gap-2.5 cursor-pointer group"
         >
-          <img
-            src={LOGO_IMAGE_URL}
-            alt="StyleCue"
-            className="w-7 h-7 rounded-full object-cover ring-1"
-            style={{ borderColor: themeConfig.primaryAccent }}
-          />
+          <BrandLogo className="w-7 h-7" label="StyleCue" />
           <span className="font-bold text-xl tracking-tight uppercase group-hover:opacity-80 transition-opacity">
             STYLE<span style={{ color: themeConfig.primaryAccent }}>CUE</span>
           </span>
