@@ -1,5 +1,4 @@
 import React from 'react';
-import { LOGO_IMAGE_URL } from '../data/mockData';
 import { useTheme } from '../context/ThemeContext';
 
 interface BrandLogoProps {
@@ -27,11 +26,11 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
         className="h-full w-full"
         style={{
           backgroundColor: themeConfig.primaryAccent,
-          maskImage: `url(${LOGO_IMAGE_URL})`,
+          maskImage: 'url(/logo.png)',
           maskPosition: 'center',
           maskRepeat: 'no-repeat',
           maskSize: 'contain',
-          WebkitMaskImage: `url(${LOGO_IMAGE_URL})`,
+          WebkitMaskImage: 'url(/logo.png)',
           WebkitMaskPosition: 'center',
           WebkitMaskRepeat: 'no-repeat',
           WebkitMaskSize: 'contain'
