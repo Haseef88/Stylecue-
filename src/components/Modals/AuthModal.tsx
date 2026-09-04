@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Lock, Mail, Sparkles, CheckCircle } from 'lucide-react';
-import { LOGO_IMAGE_URL } from '../../data/mockData';
+import { BrandLogo } from '../BrandLogo';
 import { useTheme } from '../../context/ThemeContext';
 
 interface AuthModalProps {
@@ -37,7 +37,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         {/* Top Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-white/10 glass-panel">
           <div className="flex items-center gap-2.5">
-            <img src={LOGO_IMAGE_URL} alt="StyleCue" className="w-6 h-6 rounded-full" />
+            <BrandLogo className="w-6 h-6" label="StyleCue" />
             <span className="font-bold text-sm uppercase tracking-wider">
               StyleCue <span style={{ color: themeConfig.primaryAccent }}>Account</span>
             </span>

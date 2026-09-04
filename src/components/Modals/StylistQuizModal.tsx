@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Sparkles, ArrowRight, ArrowLeft, CheckCircle2 } from 'lucide-react';
-import { LOGO_IMAGE_URL } from '../../data/mockData';
+import { BrandLogo } from '../BrandLogo';
 import { useTheme } from '../../context/ThemeContext';
 
 interface StylistQuizModalProps {
@@ -45,7 +45,7 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
         {/* Header Bar */}
         <div className="flex items-center justify-between px-6 sm:px-8 py-5 border-b border-white/10 glass-panel">
           <div className="flex items-center gap-2.5">
-            <img src={LOGO_IMAGE_URL} alt="StyleCue" className="w-6 h-6 rounded-full" />
+            <BrandLogo className="w-6 h-6" label="StyleCue" />
             <span className="font-bold text-sm uppercase tracking-wider">
               StyleCue <span style={{ color: themeConfig.primaryAccent }}>Quick Style Quiz</span>
             </span>

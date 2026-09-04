@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, Menu, X, ArrowRight } from 'lucide-react';
-import { LOGO_IMAGE_URL } from '../data/mockData';
+import { BrandLogo } from './BrandLogo';
 import { ThemeSelector } from './ThemeSelector';
 import { LightDarkToggle } from './LightDarkToggle';
 import { useTheme } from '../context/ThemeContext';
