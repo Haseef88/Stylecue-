@@ -46,7 +46,15 @@ export const Navbar: React.FC<NavbarProps> = ({
           className="flex items-center gap-3 cursor-pointer group select-none flex-shrink-0"
         >
           <div className="relative">
-            <BrandLogo className="h-9 w-9 transition-all drop-shadow-md" />
+            <img
+              src={LOGO_IMAGE_URL}
+              alt="StyleCue Logo"
+              className={`h-9 w-9 rounded-full object-cover ring-2 transition-all shadow-md ${
+                themeConfig.category === 'light' ? 'logo-light' : ''
+              }`}
+              style={{ borderColor: themeConfig.primaryAccent }}
+            />
+            <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-black"></span>
           </div>
           <span className="text-xl md:text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition-opacity">
             STYLE<span style={{ color: themeConfig.primaryAccent }}>CUE</span>

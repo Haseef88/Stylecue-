@@ -555,33 +555,33 @@ export const STYLING_BENEFITS = [
 export const HOW_IT_WORKS_STEPS = [
   {
     step: '01',
-    title: 'Take a 1-Minute Style Quiz',
+    title: 'Quick In-Store Input',
     subtitle: 'Tell us about your style and size',
-    desc: 'Answer a few quick questions about your body shape, favorite colors, clothing budget, and where you like to go.',
+    desc: "Shoppers enter body details, size, and occasion on the store's kiosk or tablet—no account needed.",
     badge: 'Quick & Easy',
     imageUrl: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80'
   },
   {
     step: '02',
-    title: 'We Search Top Clothing Stores',
+    title: 'Instant Store AI Matching',
     subtitle: 'Finding items in your exact size',
-    desc: 'Our system instantly searches thousands of clothing items from trusted stores like FARFETCH, SSENSE, Nordstrom, and Net-a-Porter.',
+    desc: 'The AI stylist analyzes your active store inventory to recommend complete, stylish outfit combinations.',
     badge: 'Instant Search',
     imageUrl: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80'
   },
   {
     step: '03',
-    title: 'See Complete Outfits Put Together',
+    title: 'Review & Selection Summary',
     subtitle: 'Styled for your specific events',
-    desc: 'See complete outfits with matched jackets, tops, pants, shoes, and accessories, plus simple tips on how to wear them.',
+    desc: 'Shoppers preview their favorite pieces and confirm their selection in seconds.',
     badge: 'Full Outfits',
     imageUrl: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80'
   },
   {
     step: '04',
-    title: 'Shop Directly with Easy Delivery',
+    title: 'Automated Staff Notification',
     subtitle: 'Buy your favorites in one click',
-    desc: 'Order the items you love directly from the stores with fast shipping, hassle-free returns, and great customer support.',
+    desc: 'A session ID is created and sent instantly to sales staff, who fetch the exact items to the fitting room.',
     badge: 'Fast & Secure',
     imageUrl: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80'
   }
