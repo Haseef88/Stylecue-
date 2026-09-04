@@ -1,3 +1,4 @@
+import { LOGO_IMAGE_URL } from '../data/mockData';
 import React, { useState } from 'react';
 import { Sparkles, Menu, X, ArrowRight } from 'lucide-react';
 import { BrandLogo } from './BrandLogo';

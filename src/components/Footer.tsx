@@ -1,3 +1,4 @@
+import { LOGO_IMAGE_URL } from '../data/mockData';
 import React from 'react';
 import { BrandLogo } from './BrandLogo';
 import { useTheme } from '../context/ThemeContext';
