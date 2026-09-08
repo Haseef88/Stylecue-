@@ -493,10 +493,10 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 't2',
     quote: "I haven't had to spend hours shopping in stores for months. In just a few seconds, StyleCue puts together complete outfits for my work trips, and everything fits when it arrives.",
-    author: "Dominic Torretto",
-    title: "Company Founder & Tech Leader",
-    outletOrAvatar: "Client in New York",
-    avatarUrl: '/dominic.png',
+    author: "Aaqib Jezeel",
+    title: "Clothing Brand Owner",
+    outletOrAvatar: "Client in Sri Lanka",
+    avatarUrl: '/Aaqib.jpeg',
     isPress: false
   },
   {
