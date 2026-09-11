@@ -303,7 +303,7 @@ export const InteractiveStylistDemo: React.FC<InteractiveStylistDemoProps> = ({ 
               className="w-full sm:w-auto text-slate-900 px-6 py-2.5 rounded-full text-xs font-bold hover:opacity-90 transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer"
               style={{ backgroundColor: themeConfig.primaryAccent }}
             >
-              <span>Book a Demo for Your Store</span>
+              <span>Try the Full Quiz Experience</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
           </div>
