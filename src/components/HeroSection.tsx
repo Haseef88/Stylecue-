@@ -84,7 +84,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               className="px-8 py-3.5 rounded-full font-bold text-sm sm:text-base transition-all duration-200 flex items-center justify-center gap-2 shadow-xl hover:opacity-95 active:scale-95 group cursor-pointer text-slate-950"
               style={{ backgroundColor: themeConfig.primaryAccent }}
             >
-              <span>Book a Demo</span>
+              <span>Try the Interactive Demo</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
             <button
