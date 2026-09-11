@@ -18,7 +18,7 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
   const [fitPreference, setFitPreference] = useState('Womenswear');
   const [aesthetic, setAesthetic] = useState('Modern & Casual');
   const [colorTone, setColorTone] = useState('Warm Cream & Charcoal');
-  const [budgetTier, setBudgetTier] = useState('$150 – $400 / Outfit');
+  const [budgetTier, setBudgetTier] = useState('Everyday');
 
   if (!isOpen) return null;
 
@@ -89,7 +89,7 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                     What kind of clothes are you shopping for?
                   </h3>
                   <p className="text-xs opacity-75">
-                    Select the fit and styling category you wear most often.
+                    This is a sample of what shoppers see at the kiosk. Select a fit category to try it.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
                     {[
@@ -206,9 +206,9 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
                     {[
-                      { id: '$150 – $400 / Outfit', title: 'Budget Friendly', desc: 'Zara, Mango, ASOS, H&M Premium' },
-                      { id: '$400 – $1,200 / Outfit', title: 'Mid-Tier Brands', desc: 'Ganni, Sandro, Maje, COS, Reformation' },
-                      { id: '$1,200+ / Outfit', title: 'Designer & Luxury', desc: 'Acne Studios, Totême, The Row, Gucci' }
+                      { id: 'Everyday', title: 'Everyday', desc: 'Accessible, everyday basics and staples' },
+                      { id: 'Mid-Range', title: 'Mid-Range', desc: 'Contemporary, higher-quality pieces' },
+                      { id: 'Premium', title: 'Premium', desc: 'Premium and statement pieces' }
                     ].map((item) => (
                       <button
                         key={item.id}
@@ -223,7 +223,6 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                         }}
                       >
                         <div className="font-bold text-sm mb-1">{item.title}</div>
-                        <div className="text-xs font-mono mb-1 font-bold" style={{ color: themeConfig.primaryAccent }}>{item.id}</div>
                         <div className="text-[11px] opacity-70">{item.desc}</div>
                       </button>
                     ))}
@@ -269,7 +268,7 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                 Finding Outfits For You...
               </h3>
               <p className="text-sm opacity-70 max-w-sm mx-auto font-mono">
-                Matching your sizes, colors, and budget across verified online stores...
+                This is how the kiosk matches sizes, colors, and budget against a store's own live inventory...
               </p>
             </div>
           )}
@@ -286,7 +285,7 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                   style={{ color: themeConfig.primaryAccent }}
                 >
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                  Your Profile is Ready: 99% Fit Match
+                  Sample Profile Ready
                 </div>
 
                 <h3 className="text-2xl sm:text-3xl font-bold">
@@ -294,7 +293,7 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                 </h3>
 
                 <p className="text-xs sm:text-sm opacity-80 max-w-lg mx-auto leading-relaxed">
-                  Your style profile is set for {fitPreference} with {colorTone} colors in the {budgetTier} range.
+                  This is a sample of what your shoppers would see: a {fitPreference} profile with {colorTone} colors in the {budgetTier} range.
                 </p>
 
                 <div className="grid grid-cols-3 gap-2 pt-2 text-center text-xs">
@@ -303,12 +302,12 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                     <span className="font-mono font-bold">{fitPreference}</span>
                   </div>
                   <div className="p-2.5 rounded-xl glass-panel border border-white/10">
-                    <span className="opacity-60 block text-[10px]">Stores</span>
-                    <span className="font-mono font-bold" style={{ color: themeConfig.primaryAccent }}>Top Retailers</span>
+                    <span className="opacity-60 block text-[10px]">Inventory Source</span>
+                    <span className="font-mono font-bold" style={{ color: themeConfig.primaryAccent }}>Your Store Only</span>
                   </div>
                   <div className="p-2.5 rounded-xl glass-panel border border-white/10">
-                    <span className="opacity-60 block text-[10px]">In-Stock Matches</span>
-                    <span className="font-mono font-bold text-emerald-400">142 Outfits</span>
+                    <span className="opacity-60 block text-[10px]">Match Type</span>
+                    <span className="font-mono font-bold text-emerald-400">Full Outfit</span>
                   </div>
                 </div>
               </div>
@@ -320,7 +319,7 @@ export const StylistQuizModal: React.FC<StylistQuizModalProps> = ({ isOpen, onCl
                   style={{ backgroundColor: themeConfig.primaryAccent }}
                 >
                   <Sparkles className="w-4 h-4" />
-                  <span>Start Browsing My Outfits</span>
+                  <span>See Sample Outfits</span>
                 </button>
                 <button
                   onClick={handleReset}
