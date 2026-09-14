@@ -307,7 +307,7 @@ export const CURATED_LOOKS: LookbookLook[] = [
         brand: 'StyleCue Selection',
         retailer: 'This Store',
         price: 6400,
-        image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=600&q=80',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxvGekDAeQseNX1dfb1QId79l4BKpGM0YMqWM4CE_eMg&s=10',
         category: 'outerwear',
         inStock: true,
         sizeAvailable: ['S', 'M']
