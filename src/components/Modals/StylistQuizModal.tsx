@@ -96,11 +96,11 @@ export const CURATED_LOOKS: LookbookLook[] = [
     items: [
       {
         id: 'item-5',
-        name: 'Silk Slip Maxi Dress',
+        name: 'silk slip',
         brand: 'StyleCue Selection',
         retailer: 'This Store',
         price: 1890,
-        image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUMfr8LSYb4UpNoMZodIpbAbldDplBroKg0MTQGfuqww&s=10',
         category: 'outerwear',
         inStock: true,
         sizeAvailable: ['S', 'M', 'L']
@@ -111,7 +111,7 @@ export const CURATED_LOOKS: LookbookLook[] = [
         brand: 'StyleCue Selection',
         retailer: 'This Store',
         price: 3450,
-        image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBfI1ZuRA94cAS094Hnjupdm0jo8CAZjPwiz2IdQz05A&s=10',
         category: 'outerwear',
         inStock: true,
         sizeAvailable: ['XS', 'S', 'M']
