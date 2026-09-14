@@ -11,10 +11,10 @@ export const CURATED_LOOKS: LookbookLook[] = [
     vibe: 'Casual Street Style',
     matchScore: 98,
     description: 'A stylish and comfortable outfit with a light cropped jacket, matching cargo pants, and simple accessories for day or night.',
-    imageUrl: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkwwA_Cn9THSp6t6-uU2Z3G536fE5zEwbkgfgFkOZKg&s=10',
     detailImages: [
-      'https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkwwA_Cn9THSp6t6-uU2Z3G536fE5zEwbkgfgFkOZKg&s=10',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkwwA_Cn9THSp6t6-uU2Z3G536fE5zEwbkgfgFkOZKg&s=10',
       'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80'
     ],
     tags: ['Streetwear', 'Casual', 'Everyday'],
@@ -32,7 +32,7 @@ export const CURATED_LOOKS: LookbookLook[] = [
         brand: 'StyleCue Selection',
         retailer: 'This Store',
         price: 680,
-        image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfqbR4WwvlOUTALEUsUY0JRV12GMGyNmB_BENSkfOE3Q&s=10',
         category: 'outerwear',
         inStock: true,
         sizeAvailable: ['XS', 'S', 'M', 'L']
