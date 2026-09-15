@@ -167,7 +167,7 @@ export const CURATED_LOOKS: LookbookLook[] = [
         brand: 'StyleCue Selection',
         retailer: 'This Store',
         price: 620,
-        image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAbjbnExrDGHQv_woBQDcbe6GW5DN7R8O08pv_v1RGwg&s=10',
         category: 'bottom',
         inStock: true,
         sizeAvailable: ['S', 'M', 'L']
@@ -199,7 +199,7 @@ export const CURATED_LOOKS: LookbookLook[] = [
         brand: 'StyleCue Selection',
         retailer: 'This Store',
         price: 1280,
-        image: 'https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQegSm8mCbCiS6BC02ujTR44dVEgt_uOomMV5yUnWiMjg&s=10',
         category: 'outerwear',
         inStock: true,
         sizeAvailable: ['M', 'L', 'XL']
